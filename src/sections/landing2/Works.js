@@ -9,7 +9,6 @@ import {
   Section,
   Box,
   Text,
-  ButtonOutline,
 } from "../../components/Core";
 import RotateImg from "../../components/RotateImg";
 import { designWorks2 } from "../../data";

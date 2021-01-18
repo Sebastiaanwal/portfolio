@@ -1,6 +1,5 @@
 import React, {
   useState,
-  useEffect,
   useLayoutEffect,
   useContext,
   useRef,
@@ -13,9 +12,6 @@ import AOS from "aos";
 import Header from "../Header";
 import Footer from "../Footer";
 
-import ModalVideo from "../ModalVideo";
-import ContactModal from "../ContactModal";
-import AboutModal from "../AboutModal";
 
 import GlobalContext from "../../context/GlobalContext";
 
@@ -79,29 +75,6 @@ const Layout = ({ children, pageContext }) => {
   // Navbar style based on scroll
   const eleRef = useRef();
 
-  useEffect(() => {
-    window.addEventListener(
-      "popstate",
-      function(event) {
-        // The popstate event is fired each time when the current history entry changes.
-        gContext.closeAbout();
-        gContext.closeContact();
-      },
-      false
-    );
-    window.addEventListener(
-      "pushState",
-      function(event) {
-        // The pushstate event is fired each time when the current history entry changes.
-        gContext.closeAbout();
-        gContext.closeContact();
-      },
-      false
-    );
-
-    return () => {};
-  }, [gContext]);
-
   if (pageContext.layout === "bare") {
     return (
       <ThemeProvider
@@ -123,7 +96,6 @@ const Layout = ({ children, pageContext }) => {
           {children}
         </div>
 
-        <ModalVideo />
       </ThemeProvider>
     );
   }
@@ -151,9 +123,7 @@ const Layout = ({ children, pageContext }) => {
 
           <Footer isDark={gContext.theme.footerDark} />
         </div>
-        <AboutModal />
-        <ContactModal />
-        <ModalVideo />
+   
       </ThemeProvider>
     </>
   );

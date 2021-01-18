@@ -1,12 +1,10 @@
-import React, { useContext } from "react";
+import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 
-import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
 import Availability from "../../components/Availability";
 
 const Hero = () => {
-  const gContext = useContext(GlobalContext);
 
   return (
     <>
@@ -16,7 +14,8 @@ const Hero = () => {
             <Col lg="10" xl="9">
               <Availability />
               <div className="text-center my-5">
-                <Title>Do you need help building or growing an online product? Let's talk.</Title>
+                <Title>Do you need help building or growing an online platform? </Title>
+                <Title>Let's talk.</Title>
               </div>
               <div className="text-center">
                 <ButtonIcon

@@ -2,7 +2,7 @@ import React from 'react'
 import Typical from 'react-typical'
 import { Title } from "../Core";
 import styled from "styled-components";
-import { color, space, typography, shadow } from "styled-system";
+import { space, typography, shadow } from "styled-system";
 import { device } from "../../utils";
   
 
