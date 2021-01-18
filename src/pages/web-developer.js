@@ -27,7 +27,7 @@ const WorkSingle = () => {
                       max-width: 750px;
                     `}
                   >
-                   Over the past 3 years I've studied and have built projects in multiple languages<br />
+                   Over the past 3 years I've studied and have built projects in multiple languages and frameworks.<br />
 
                    <ul>
                     <li>- ReactJS</li>
