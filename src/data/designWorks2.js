@@ -11,7 +11,7 @@ export const designWorks2 = [
     link: `/online-growth-manager`,
   },
   {
-    brand: `4 years`,
+    brand: `5 years`,
     categories: [`product manager`],
     thumbnail: imgT3,
     halfWidth: false,
