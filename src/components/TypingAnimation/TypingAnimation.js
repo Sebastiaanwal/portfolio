@@ -42,7 +42,7 @@ const TypingAnimation = () => {
     Nononsense freelancer<br /> who loves to
 
       <Typicalstyles
-        steps={['grow your customer base', 700, 'code a bit', 700, 'build online products', 700]}
+        steps={['grow your customer base 📈', 700, 'code 💻', 700, 'build online products 👷', 700]}
         loop={2}
         wrapper="h2"
       />

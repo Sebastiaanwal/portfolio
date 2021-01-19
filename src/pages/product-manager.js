@@ -20,7 +20,9 @@ const WorkSingle = () => {
                 <Box>
                   <Text variant="tag">FREELANCE PRODUCT MANAGER</Text>
                   <Title className="my-4">
-                    Balancing new functionalities, design <br/> and conversion
+                    Balancing new functionalities, design <br/> and conversion  <span role="img" aria-label="balance_scale">
+                              ⚖️
+                              </span>
                   </Title>
                   <Text
                     variant="p"
@@ -29,6 +31,7 @@ const WorkSingle = () => {
                     `}
                   >
                    Over the past 5 years I've worked on multiple static websites and online platforms. <br />
+                  
 
                    <ul>
                     <li>- Product manager</li>
@@ -63,6 +66,7 @@ const WorkSingle = () => {
                             </Title>
                             <Text variant="p">
                               I'll help you plan, develop, design and implement new online products. 
+                             
                             </Text>
                           </Col>
                           <Col lg="6" className="mb-5 pl-lg-5">

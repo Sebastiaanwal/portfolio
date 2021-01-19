@@ -19,7 +19,10 @@ const WorkSingle = () => {
                 <Box>
                   <Text variant="tag">FREELANCE ONLINE GROWTH MANAGER</Text>
                   <Title className="my-4">
-                  More users, more leads <br/> and more recurring business?
+                  More users, more leads <br/> and more recurring business? 
+                    <span role="img" aria-label="chart_with_upwards_trend">
+                      📈
+                    </span>
                   </Title>
                   <Text
                     variant="p"
@@ -89,7 +92,7 @@ const WorkSingle = () => {
                               04. Strategy / branding
                             </Title>
                             <Text variant="p">
-                              As your interim online marketing lead/CMO lead I'll help you build up a motivated team, position your online brand and define a nononsense online marketing strategy. 
+                           As your interim online marketing lead/CMO lead I'll help you build up a motivated team, position your online brand and define a nononsense online marketing strategy. 
                             </Text>
                           </Col>
                         </Row>

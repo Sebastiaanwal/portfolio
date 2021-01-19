@@ -19,7 +19,10 @@ const WorkSingle = () => {
                 <Box>
                   <Text variant="tag">FREELANCE WEB DEVELOPER</Text>
                   <Title className="my-4">
-                  Let's build!
+                  Let's build! 
+                  <span role="img" aria-label="construction_worker">
+                    👷
+                  </span>
                   </Title>
                   <Text
                     variant="p"
@@ -27,7 +30,8 @@ const WorkSingle = () => {
                       max-width: 750px;
                     `}
                   >
-                   Over the past 3 years I've studied and have built projects in multiple languages and frameworks.<br />
+                    
+                   Over the past 3 years I've studied and have built projects in <br />multiple languages and frameworks.<br />
 
                    <ul>
                     <li>- ReactJS</li>
